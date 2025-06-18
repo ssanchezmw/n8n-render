@@ -9,4 +9,3 @@ ENV WEBHOOK_URL=https://n8n-render-8lfd.onrender.com
 
 EXPOSE 5678
 
-CMD ["n8n"]
