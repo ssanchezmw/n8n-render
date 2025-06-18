@@ -5,3 +5,8 @@ ENV N8N_BASIC_AUTH_USER=samwowv
 ENV N8N_BASIC_AUTH_PASSWORD=samwowv
 ENV N8N_HOST=0.0.0.0
 ENV N8N_PORT=5678
+ENV WEBHOOK_URL=https://n8n-render-8lfd.onrender.com
+
+EXPOSE 5678
+
+CMD ["n8n"]
